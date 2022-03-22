@@ -1,0 +1,41 @@
+package TestPack;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class Start4 {
+	
+
+	@Test
+	public void WebLoginHomeLoan()
+	{
+		//selenium
+		System.out.println("WebLoginHome");
+		
+	}
+	@Test
+	public void MobileLoginHomeLoan()
+	{
+		//appium
+		System.out.println("MobLoginHome");
+		
+	}
+	@Test(groups= {"Smoke"})
+	public void LoginAPIHomeLoan()
+	{
+		System.out.println("APILoginHome");
+	}
+	@BeforeClass
+	public void Befclass()
+	{
+		System.out.println("Before Class");
+	}
+	@AfterClass
+	public void Afteclass()
+	{
+		System.out.println("After Class");
+	}
+
+}
