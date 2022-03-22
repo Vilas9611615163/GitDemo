@@ -20,6 +20,8 @@ public class Start4 {
 	{
 		//appium
 		System.out.println("MobLoginHome");
+		System.out.println("MobLoginHouse");
+		System.out.println("MobLoginHouse2");
 		
 	}
 	@Test(groups= {"Smoke"})
