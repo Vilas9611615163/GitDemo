@@ -13,6 +13,8 @@ public class Start4 {
 	{
 		//selenium
 		System.out.println("WebLoginHome");
+		System.out.println("WebLoginHouse");
+		System.out.println("WebLoginHut");
 		
 	}
 	@Test
