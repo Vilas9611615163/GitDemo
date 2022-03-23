@@ -35,6 +35,7 @@ public class Start4 {
 	public void Befclass()
 	{
 		System.out.println("Before Class");
+		System.out.println("BeforeAfter Class");
 	}
 	@AfterClass
 	public void Afteclass()
